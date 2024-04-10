@@ -1,9 +1,9 @@
 ﻿*.swp
 *.*~
 project.lock.json
-*.DS_Store
 *.pyc
 nupkg/
+*.DS_Store
 
 # Visual Studio Code
 .vscode/
@@ -41,12 +41,3 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
-.vs/MQSHotelBooking/xs/UserPrefs.xml
-MQSBookingService/.DS_Store
-MQSBookingService/.DS_Store
-MQSBookingService/.DS_Store
-MQSBookingService/Tests/.DS_Store
-MQSBookingService/.DS_Store
-/MQSBookingService
-.DS_Store
-.DS_Store
