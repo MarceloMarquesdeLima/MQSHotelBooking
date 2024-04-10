@@ -1,5 +1,6 @@
 ﻿<Properties StartupConfiguration="{F01F828F-B4AD-4E79-A9CE-1F974C00AAD6}|Testes de Unidade">
   <MonoDevelop.Ide.ItemProperties.MQSBookingService.Tests.Domain.DomainTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MQSBookingService.Tests.Application.ApplicationTests FirstBuild="True" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.MQSBookingService.Tests.Adapters.AdaptersTests FirstBuild="True" />
 </Properties>
