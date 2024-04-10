@@ -40,3 +40,13 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
+MQSBookingService/.DS_Store
+.DS_Store
+/MQSBookingService/Consumer
+MQSBookingService/Consumer/.DS_Store
+MQSBookingService/Consumer/.DS_Store
+MQSBookingService/Consumer/.DS_Store
+/MQSBookingService/Consumer
+/MQSBookingService
+MQSBookingService/Consumer/.DS_Store
+MQSBookingService/Tests/Application/.DS_Store
