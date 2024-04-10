@@ -1,6 +1,39 @@
 ﻿<Properties StartupConfiguration="{F01F828F-B4AD-4E79-A9CE-1F974C00AAD6}|Testes de Unidade">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.MQSBookingService.Tests.Domain.DomainTests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.MQSBookingService.Tests.Application.ApplicationTests FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.MQSBookingService.Tests.Adapters.AdaptersTests FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MQSBookingService/Tests/Application/ApplicationTests/UnitTest1.cs">
+    <Files>
+      <File FileName="MQSBookingService/Consumer/ApiConsumer/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="MQSBookingService/Tests/Adapters/AdaptersTests/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="MQSBookingService/Tests/Application/ApplicationTests/UnitTest1.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MQSHotelBooking" selected="True">
+            <Node name="MQSBookingService">
+              <Node name="Adapter" expanded="True">
+                <Node name="Adapter.SQL" expanded="True" />
+              </Node>
+              <Node name="Consumer" expanded="True" />
+              <Node name="Core" expanded="True">
+                <Node name="Application" expanded="True" />
+                <Node name="Domain" expanded="True" />
+              </Node>
+              <Node name="Tests" expanded="True">
+                <Node name="Adapters" expanded="True" />
+                <Node name="Application" expanded="True" />
+                <Node name="Domain" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
