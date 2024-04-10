@@ -1,4 +1,4 @@
-﻿namespace Adapters;
+﻿namespace AdaptersTests;
 
 public class Tests
 {
