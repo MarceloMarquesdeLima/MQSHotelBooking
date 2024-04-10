@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/Projeto/dev/Treinamentos/MQSHotelBooking/MQSBookingService/Tests/Domain/DomainTests/DomainTests.csproj": {}
+    "/Volumes/Projeto/Projetos/MQSHotelBooking/MQSBookingService/Tests/Domain/DomainTests/DomainTests.csproj": {}
   },
   "projects": {
-    "/Volumes/Projeto/dev/Treinamentos/MQSHotelBooking/MQSBookingService/Tests/Domain/DomainTests/DomainTests.csproj": {
+    "/Volumes/Projeto/Projetos/MQSHotelBooking/MQSBookingService/Tests/Domain/DomainTests/DomainTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/Projeto/dev/Treinamentos/MQSHotelBooking/MQSBookingService/Tests/Domain/DomainTests/DomainTests.csproj",
+        "projectUniqueName": "/Volumes/Projeto/Projetos/MQSHotelBooking/MQSBookingService/Tests/Domain/DomainTests/DomainTests.csproj",
         "projectName": "DomainTests",
-        "projectPath": "/Volumes/Projeto/dev/Treinamentos/MQSHotelBooking/MQSBookingService/Tests/Domain/DomainTests/DomainTests.csproj",
+        "projectPath": "/Volumes/Projeto/Projetos/MQSHotelBooking/MQSBookingService/Tests/Domain/DomainTests/DomainTests.csproj",
         "packagesPath": "/Users/marcelomarquesdelima/.nuget/packages/",
-        "outputPath": "/Volumes/Projeto/dev/Treinamentos/MQSHotelBooking/MQSBookingService/Tests/Domain/DomainTests/obj/",
+        "outputPath": "/Volumes/Projeto/Projetos/MQSHotelBooking/MQSBookingService/Tests/Domain/DomainTests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/marcelomarquesdelima/.nuget/NuGet/NuGet.Config"

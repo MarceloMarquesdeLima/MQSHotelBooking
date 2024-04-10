@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/Projeto/dev/Treinamentos/MQSHotelBooking/MQSBookingService/Core/Application/Application/Application.csproj",
+      "projectUniqueName": "/Volumes/Projeto/Projetos/MQSHotelBooking/MQSBookingService/Core/Application/Application/Application.csproj",
       "projectName": "Application",
-      "projectPath": "/Volumes/Projeto/dev/Treinamentos/MQSHotelBooking/MQSBookingService/Core/Application/Application/Application.csproj",
+      "projectPath": "/Volumes/Projeto/Projetos/MQSHotelBooking/MQSBookingService/Core/Application/Application/Application.csproj",
       "packagesPath": "/Users/marcelomarquesdelima/.nuget/packages/",
-      "outputPath": "/Volumes/Projeto/dev/Treinamentos/MQSHotelBooking/MQSBookingService/Core/Application/Application/obj/",
+      "outputPath": "/Volumes/Projeto/Projetos/MQSHotelBooking/MQSBookingService/Core/Application/Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/marcelomarquesdelima/.nuget/NuGet/NuGet.Config"

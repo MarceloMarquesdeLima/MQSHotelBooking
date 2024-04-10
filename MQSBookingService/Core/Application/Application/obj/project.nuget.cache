@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "theog5aK7Kf5ybpDqIxn1meH8VrbwDcKg0wsuY/elsn1xt8mV8eWwkBS+HfQ/yt0QG0SaaP2zRuQhva6ZwCGzw==",
+  "dgSpecHash": "7yHPJMzvcFj4lOthwIhWgfRSjyZbmA2ctphw1B/2zq0wghGbmNy6TmjxuNJ3N5misvytwBfzJ5k0zBxjAxxYmQ==",
   "success": true,
-  "projectFilePath": "/Volumes/Projeto/dev/Treinamentos/MQSHotelBooking/MQSBookingService/Core/Application/Application/Application.csproj",
+  "projectFilePath": "/Volumes/Projeto/Projetos/MQSHotelBooking/MQSBookingService/Core/Application/Application/Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
