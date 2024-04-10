@@ -1,0 +1,5 @@
+﻿<Properties>
+  <MonoDevelop.Ide.ItemProperties.MQSBookingService.Core.Application.Application FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MQSBookingService.Core.Domain.Domain FirstBuild="True" />
+</Properties>
