@@ -2,13 +2,12 @@
 *.*~
 project.lock.json
 .DS_Store
-*DS_Store
+*.DS_Store
 *.pyc
 nupkg/
 
 # Visual Studio Code
 .vscode/
-.vs/MQSHotelBooking/xs
 
 # Rider
 .idea/
