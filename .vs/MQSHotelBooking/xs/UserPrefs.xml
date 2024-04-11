@@ -1,31 +1,30 @@
 ﻿<Properties StartupConfiguration="{63637B0E-B6CC-4737-9841-FA0E1C4FCE56}|Default">
+  <MonoDevelop.Ide.ItemProperties.MQSBookingService.Consumer.ApiConsumer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <DisabledProjects>
     <String>MQSBookingService/Aplicatiom/Aplicatiom.csproj</String>
     <String>MQSBookingService/Domain/Domain.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.ItemProperties.MQSBookingService.Core.Application.Application FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.MQSBookingService.Consumer.ApiConsumer PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.MQSBookingService.Tests.Domain.DomainTests PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MQSBookingService/Core/Application/Class1.cs">
+  <MonoDevelop.Ide.ItemProperties.MQSBookingService.Core.Application.Application FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MQSBookingService/Core/Domain/EmptyClass.cs">
     <Files>
-      <File FileName="MQSBookingService/Domain/Class1.cs" Line="1" Column="1" />
-      <File FileName="MQSBookingService/Domain/Class1.cs" Line="7" Column="1" />
-      <File FileName="MQSBookingService/Core/Application/Class1.cs" Line="1" Column="1" />
+      <File FileName="MQSBookingService/Core/Application/EmptyClass.cs" Line="1" Column="1" />
+      <File FileName="MQSBookingService/Core/Domain/EmptyClass.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MQSHotelBooking">
-            <Node name="MQSBookingService">
+            <Node name="MQSBookingService" expanded="True">
               <Node name="Adapter" expanded="True" />
               <Node name="Consumer" expanded="True" />
               <Node name="Core" expanded="True">
                 <Node name="Application" expanded="True">
-                  <Node name="Application" selected="True" />
+                  <Node name="Application" expanded="True" />
                 </Node>
-                <Node name="Domain" expanded="True">
+                <Node name="Domain" expanded="True" selected="True">
                   <Node name="Domain" expanded="True" />
                 </Node>
               </Node>
@@ -40,8 +39,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.MQSBookingService.Tests.Domain.DomainTests PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

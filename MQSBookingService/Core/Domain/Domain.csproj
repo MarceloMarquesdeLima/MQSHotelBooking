@@ -6,4 +6,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="DomainEvents\" />
+    <None Remove="DomainException\" />
+    <None Remove="Enums\" />
+    <None Remove="Ports\" />
+    <None Remove="ValueObjects\" />
+    <None Remove="Entities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DomainEvents\" />
+    <Folder Include="DomainException\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Ports\" />
+    <Folder Include="ValueObjects\" />
+    <Folder Include="Entities\" />
+  </ItemGroup>
 </Project>
