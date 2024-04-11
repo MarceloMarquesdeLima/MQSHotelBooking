@@ -16,4 +16,13 @@
     <PackageReference Include="coverlet.collector" Version="3.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Booking\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Booking\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\Domain\Domain.csproj" />
+  </ItemGroup>
 </Project>

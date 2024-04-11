@@ -7,6 +7,7 @@ namespace Domain.Entities
 	{
 		public Booking()
 		{
+			this.Status = Status.Created;
 		}
 
 		public int Id { get; set; }

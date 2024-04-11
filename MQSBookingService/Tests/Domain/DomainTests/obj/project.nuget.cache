@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ADg6JrtBTqXwOIaForZ64wPv08v6K+3gPY3+I+jCx/DA6DjVk6XS1y6m79EQuUyI2rLq0xTNj+6LRX7GUZ4sJA==",
+  "dgSpecHash": "vB9DMrjQ21xAwWAdhid6dafIWCN3PFkJMT7Ye3w+YNloiESLT5tL3arJDbKEy6MsAV2N+muQ9cBzFu4oKV2H4Q==",
   "success": true,
   "projectFilePath": "/Volumes/Projeto/Projetos/MQSHotelBooking/MQSBookingService/Tests/Domain/DomainTests/DomainTests.csproj",
   "expectedPackageFiles": [
