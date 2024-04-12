@@ -4,6 +4,7 @@ using Adapter.SQL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Adapter.SQL.Migrations
 {
     [DbContext(typeof(MQSDbContext))]
-    partial class MQSDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240412155205_AddForenkeyToBooking")]
+    partial class AddForenkeyToBooking
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
