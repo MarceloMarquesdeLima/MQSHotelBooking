@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/CWhkyFmQeHeVcHbDTLSFsuqNuDlRI3nEfTwz/smoSldVhkcBY2WhEq5RSR1jNnI/FRJUFjWGtM1GMrV5pRqgQ==",
+  "dgSpecHash": "Qoji5uSfob6pw70JyLOmBw4moVbxOr96aO2k5yNEDebgWyRBgbJwNa/vZhd+OYBaLuh9Hz09A8ENYRdfClB1YQ==",
   "success": true,
   "projectFilePath": "C:\\Dev\\MQSHotelBooking\\MQSBookingService\\Adapter\\Adapter.SQL\\Adapter.SQL.csproj",
   "expectedPackageFiles": [
