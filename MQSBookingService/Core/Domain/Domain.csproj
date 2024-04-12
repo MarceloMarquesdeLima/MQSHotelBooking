@@ -15,11 +15,8 @@
     <None Remove="Entities\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DomainEvents\" />
-    <Folder Include="DomainException\" />
     <Folder Include="Enums\" />
     <Folder Include="Ports\" />
-    <Folder Include="ValueObjects\" />
     <Folder Include="Entities\" />
   </ItemGroup>
 </Project>
