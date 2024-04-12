@@ -3984,33 +3984,40 @@
     ]
   },
   "packageFolders": {
-    "/Users/marcelomarquesdelima/.nuget/packages/": {}
+    "C:\\Users\\marce\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/Projeto/Projetos/MQSHotelBooking/MQSBookingService/Tests/Domain/DomainTests/DomainTests.csproj",
+      "projectUniqueName": "C:\\Dev\\MQSHotelBooking\\MQSBookingService\\Tests\\Domain\\DomainTests\\DomainTests.csproj",
       "projectName": "DomainTests",
-      "projectPath": "/Volumes/Projeto/Projetos/MQSHotelBooking/MQSBookingService/Tests/Domain/DomainTests/DomainTests.csproj",
-      "packagesPath": "/Users/marcelomarquesdelima/.nuget/packages/",
-      "outputPath": "/Volumes/Projeto/Projetos/MQSHotelBooking/MQSBookingService/Tests/Domain/DomainTests/obj/",
+      "projectPath": "C:\\Dev\\MQSHotelBooking\\MQSBookingService\\Tests\\Domain\\DomainTests\\DomainTests.csproj",
+      "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
+      "outputPath": "C:\\Dev\\MQSHotelBooking\\MQSBookingService\\Tests\\Domain\\DomainTests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/marcelomarquesdelima/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Volumes/Projeto/Projetos/MQSHotelBooking/MQSBookingService/Core/Domain/Domain.csproj": {
-              "projectPath": "/Volumes/Projeto/Projetos/MQSHotelBooking/MQSBookingService/Core/Domain/Domain.csproj"
+            "C:\\Dev\\MQSHotelBooking\\MQSBookingService\\Core\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Dev\\MQSHotelBooking\\MQSBookingService\\Core\\Domain\\Domain.csproj"
             }
           }
         }
@@ -4019,6 +4026,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4062,7 +4074,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.421/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }
