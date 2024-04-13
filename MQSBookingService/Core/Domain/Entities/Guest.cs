@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domain.ValueObjects;
+using System;
 namespace Domain.Entities
 {
 	public class Guest
@@ -10,6 +11,7 @@ namespace Domain.Entities
 		public string Name { get; set; }
 		public string Surname { get; set; }
 		public string Email { get; set; }
-	}
+        public PersonId DocumentId { get; set; }	
+    }
 }
 

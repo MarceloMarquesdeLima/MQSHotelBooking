@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Domain.ValueObjects;
+using System;
+
 namespace Domain.Entities
 {
-	public class Roon
+	public class Room
 	{
-		public Roon()
+		public Room()
 		{
 		}
 
@@ -11,8 +13,9 @@ namespace Domain.Entities
 		public string Name { get; set; }
 		public int Level { get; set; }
 		public bool InMaintenance { get; set; }
+        public Price Price { get; set; }
 
-		public bool IsAvailable
+        public bool IsAvailable
 		{
 			get
 			{
