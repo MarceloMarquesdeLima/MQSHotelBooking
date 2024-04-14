@@ -34,5 +34,6 @@
     <ProjectReference Include="..\..\Adapter\Adapter.SQL\Adapter.SQL.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\..\Core\Application\Application.csproj" />
   </ItemGroup>
 </Project>

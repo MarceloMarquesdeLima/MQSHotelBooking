@@ -7,7 +7,7 @@
     }
     public abstract class Response
     {
-        public bool Sucess { get; set; }
+        public bool Succeded { get; set; }
         public string Message { get; set; }
         public ErrorCodes ErrorCode { get; set; }
     }

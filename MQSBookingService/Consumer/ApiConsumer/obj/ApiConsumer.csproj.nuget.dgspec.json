@@ -125,6 +125,9 @@
             "projectReferences": {
               "C:\\Dev\\MQSHotelBooking\\MQSBookingService\\Adapter\\Adapter.SQL\\Adapter.SQL.csproj": {
                 "projectPath": "C:\\Dev\\MQSHotelBooking\\MQSBookingService\\Adapter\\Adapter.SQL\\Adapter.SQL.csproj"
+              },
+              "C:\\Dev\\MQSHotelBooking\\MQSBookingService\\Core\\Application\\Application.csproj": {
+                "projectPath": "C:\\Dev\\MQSHotelBooking\\MQSBookingService\\Core\\Application\\Application.csproj"
               }
             }
           }

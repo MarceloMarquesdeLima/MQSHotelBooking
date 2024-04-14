@@ -2486,6 +2486,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Adapter.SQL >= 1.0.0",
+      "Application >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.29",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.29",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -2526,6 +2527,9 @@
           "projectReferences": {
             "C:\\Dev\\MQSHotelBooking\\MQSBookingService\\Adapter\\Adapter.SQL\\Adapter.SQL.csproj": {
               "projectPath": "C:\\Dev\\MQSHotelBooking\\MQSBookingService\\Adapter\\Adapter.SQL\\Adapter.SQL.csproj"
+            },
+            "C:\\Dev\\MQSHotelBooking\\MQSBookingService\\Core\\Application\\Application.csproj": {
+              "projectPath": "C:\\Dev\\MQSHotelBooking\\MQSBookingService\\Core\\Application\\Application.csproj"
             }
           }
         }
