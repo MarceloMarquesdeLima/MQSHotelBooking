@@ -874,6 +874,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Application": "1.0.0",
           "Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.29"
         },
@@ -882,6 +883,19 @@
         },
         "runtime": {
           "bin/placeholder/Adapter.SQL.dll": {}
+        }
+      },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
         }
       },
       "Domain/1.0.0": {
@@ -2457,6 +2471,11 @@
       "type": "project",
       "path": "../../Adapter/Adapter.SQL/Adapter.SQL.csproj",
       "msbuildProject": "../../Adapter/Adapter.SQL/Adapter.SQL.csproj"
+    },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/Application/Application.csproj",
+      "msbuildProject": "../../Core/Application/Application.csproj"
     },
     "Domain/1.0.0": {
       "type": "project",

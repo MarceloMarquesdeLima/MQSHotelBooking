@@ -1,5 +1,4 @@
-﻿
-using Application.Guest.Requests;
+﻿using Application.Guest.Requests;
 using Application.Guest.Responses;
 
 namespace Application.Guest.Ports

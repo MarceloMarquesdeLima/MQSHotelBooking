@@ -17,14 +17,26 @@ namespace Application
 
         public async Task<GuestResponse> CreateGuest(CreateGuestRequest request)
         {
-            var guest = GuestDTO.MapToEntity(request.Data);
-            request.Data.Id = await _guestRepository.Create(guest);
-
-            return new GuestResponse
+            try
             {
-                Data = request.Data,
-                Sucess = true,
-            };
+                var guest = GuestDTO.MapToEntity(request.Data);
+                request.Data.Id = await _guestRepository.Create(guest);
+
+                return new GuestResponse
+                {
+                    Data = request.Data,
+                    Sucess = true,
+                };
+            }
+            catch (Exception)
+            {
+                return new GuestResponse
+                {
+                    Sucess = false,
+                    ErrorCode = ErrorCodes.COULDNOT_STORE_DATA,
+                    Message = "There was an error when saving to DB."
+                };
+            }
         }
     }
 }
