@@ -19,31 +19,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{7776D5B8-7522-49A6-A308-DE17100C36E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainTests", "MQSBookingService\Tests\Domain\DomainTests\DomainTests.csproj", "{F01F828F-B4AD-4E79-A9CE-1F974C00AAD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainTests", "MQSBookingService\Tests\Domain\DomainTests\DomainTests.csproj", "{F01F828F-B4AD-4E79-A9CE-1F974C00AAD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiConsumer", "MQSBookingService\Consumer\ApiConsumer\ApiConsumer.csproj", "{63637B0E-B6CC-4737-9841-FA0E1C4FCE56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiConsumer", "MQSBookingService\Consumer\ApiConsumer\ApiConsumer.csproj", "{63637B0E-B6CC-4737-9841-FA0E1C4FCE56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.SQL", "MQSBookingService\Adapter\Adapter.SQL\Adapter.SQL.csproj", "{A7923183-E8C8-47E4-A706-6659473A0CF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter.SQL", "MQSBookingService\Adapter\Adapter.SQL\Adapter.SQL.csproj", "{A7923183-E8C8-47E4-A706-6659473A0CF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptersTests", "MQSBookingService\Tests\Adapters\AdaptersTests\AdaptersTests.csproj", "{C71B1EFA-68C3-4D4F-80AF-5D464DE05C02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaptersTests", "MQSBookingService\Tests\Adapters\AdaptersTests\AdaptersTests.csproj", "{C71B1EFA-68C3-4D4F-80AF-5D464DE05C02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationTests", "MQSBookingService\Tests\Application\ApplicationTests\ApplicationTests.csproj", "{EC3A3AB9-1BEA-473E-87B8-CB2B8C996E45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationTests", "MQSBookingService\Tests\Application\ApplicationTests\ApplicationTests.csproj", "{EC3A3AB9-1BEA-473E-87B8-CB2B8C996E45}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{5B93E0E4-981E-46CA-8E0C-5E9321B7E946}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{1457380D-B15C-493B-99D7-83C340E54D81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "MQSBookingService\Core\Domain\Domain.csproj", "{D3ABF18A-E1AA-459A-A637-9AD7164FBAD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "MQSBookingService\Core\Domain\Domain.csproj", "{D3ABF18A-E1AA-459A-A637-9AD7164FBAD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "MQSBookingService\Core\Application\Application.csproj", "{B51B9D0E-3462-4934-96D1-175A5C6CE45D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "MQSBookingService\Core\Application\Application.csproj", "{B51B9D0E-3462-4934-96D1-175A5C6CE45D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F01F828F-B4AD-4E79-A9CE-1F974C00AAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -75,6 +72,9 @@ Global
 		{B51B9D0E-3462-4934-96D1-175A5C6CE45D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B51B9D0E-3462-4934-96D1-175A5C6CE45D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{19E659F0-E5C4-4905-9772-38015F276632} = {6ED46DE8-89F8-4F77-AB85-1784AC8DD1D4}
 		{A77833E5-5BB8-4113-8B00-18652E98DFDC} = {6ED46DE8-89F8-4F77-AB85-1784AC8DD1D4}
@@ -92,5 +92,8 @@ Global
 		{1457380D-B15C-493B-99D7-83C340E54D81} = {1BFA3002-344A-4406-A882-33D38D114093}
 		{D3ABF18A-E1AA-459A-A637-9AD7164FBAD3} = {1457380D-B15C-493B-99D7-83C340E54D81}
 		{B51B9D0E-3462-4934-96D1-175A5C6CE45D} = {5B93E0E4-981E-46CA-8E0C-5E9321B7E946}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {196650B7-9CD9-4A6E-B518-9A805A803AB5}
 	EndGlobalSection
 EndGlobal

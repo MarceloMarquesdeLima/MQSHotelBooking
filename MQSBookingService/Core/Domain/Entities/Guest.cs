@@ -1,5 +1,8 @@
-﻿using Domain.ValueObjects;
-using System;
+﻿using Domain.DomainException;
+using Domain.ValueObjects;
+using Domain.UtilsTools;
+using Domain.Ports;
+
 namespace Domain.Entities
 {
 	public class Guest
@@ -12,6 +15,38 @@ namespace Domain.Entities
 		public string Surname { get; set; }
 		public string Email { get; set; }
         public PersonId DocumentId { get; set; }	
+
+		private void ValidaState()
+		{
+			if(DocumentId == null ||
+			   DocumentId.IdNumber.Length <= 3 ||
+			   DocumentId.DocumentType == 0)
+			{
+				throw new InvalidPersonDocumentIdExcepptions();
+            }
+			if(Name == null || Surname == null || Email == null)
+			{
+				throw new MissingRequeredInformation();
+			}
+			if (Utils.ValidatoEmail(this.Email) == false)
+			{
+				throw new InvalidEmailException();
+
+            }
+		}
+
+		public async Task Save(IGuestRepository guestRepository)
+		{
+			this.ValidaState();
+			if(this.Id == 0)
+			{
+				this.Id = await guestRepository.Create(this);
+			}
+			else
+			{
+                //await guestRepository.Update(this);
+            }
+        }
     }
 }
 
