@@ -29,7 +29,7 @@ namespace ApiConsumer.Controllers
             };
             var res = await _guestManager.CreateGuest(request);
 
-            if (res.Succeded) return Created("", res.Data);
+            if (res.Success) return Created("", res.Data);
             if(res.ErrorCode == ErrorCodes.NOT_FOUND)
             {
                 return BadRequest(res);

@@ -1,4 +1,8 @@
 ﻿using Adapter.SQL;
+using Adapter.SQL.Repositories;
+using Application;
+using Application.Guest.Ports;
+using Domain.Ports;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +10,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+// IoC
+builder.Services.AddScoped<IGuestManager, GuestManager>();
+builder.Services.AddScoped<IGuestRepository, GuestRepository>();
 
 //Conexão com banco
 var connectionString = builder.Configuration.GetConnectionString("Main");

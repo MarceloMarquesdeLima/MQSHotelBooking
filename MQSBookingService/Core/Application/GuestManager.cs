@@ -25,14 +25,14 @@ namespace Application
                 return new GuestResponse
                 {
                     Data = request.Data,
-                    Sucess = true,
+                    Success = true,
                 };
             }
             catch (Exception)
             {
                 return new GuestResponse
                 {
-                    Sucess = false,
+                    Success = false,
                     ErrorCode = ErrorCodes.COULDNOT_STORE_DATA,
                     Message = "There was an error when saving to DB."
                 };
