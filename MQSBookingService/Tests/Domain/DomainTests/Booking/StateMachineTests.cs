@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿
+using Domain.Entities;
 using Domain.Enums;
 using NUnit.Framework;
 using Action = Domain.Enums.Action;
