@@ -9,9 +9,7 @@ namespace DomainTests.Bookings;
 public class StateMachineTests
 {
     [SetUp]
-    public void Setup()
-    {
-    }
+    public void Setup() {  }
 
     [Test]
     public void ShowlAlwaysStartWithCreatedStatus()
