@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "c+X6hbe3MwrRwSmZZ+GOwVcK4GpA8E9UA7qfZjnRsSBmHFFlqhfYPkHiWarZHPsjZM/zj33oWU26k6g27IqCpg==",
+  "dgSpecHash": "CgPzVrw1eFcCFkCpFSzB7gJSowvAilbNvcx+urzFnLI11dR8VB6HSGO75LGCh4Jr4qF1RGTMLLOx5tbKL3QuUA==",
   "success": true,
   "projectFilePath": "C:\\Dev\\MQSHotelBooking\\MQSBookingService\\Tests\\Application\\ApplicationTests\\ApplicationTests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\marce\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
@@ -12,6 +13,7 @@
     "C:\\Users\\marce\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.1.0\\microsoft.testplatform.objectmodel.17.1.0.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\microsoft.testplatform.testhost\\17.1.0\\microsoft.testplatform.testhost.17.1.0.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\moq\\4.20.70\\moq.4.20.70.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
@@ -20,6 +22,7 @@
     "C:\\Users\\marce\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\system.diagnostics.debug\\4.0.11\\system.diagnostics.debug.4.0.11.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\system.diagnostics.tools\\4.0.1\\system.diagnostics.tools.4.0.1.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\system.dynamic.runtime\\4.0.11\\system.dynamic.runtime.4.0.11.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\system.globalization\\4.0.11\\system.globalization.4.0.11.nupkg.sha512",

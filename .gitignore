@@ -372,3 +372,4 @@ MQSBookingService/Tests/Domain/DomainTests/obj/Debug/net6.0/DomainTests.csproj.A
 *.json
 *.cache
 *.cache
+/MQSBookingService/Consumer/ApiConsumer/obj/Debug/net6.0/ApiConsumer.AssemblyInfo.cs

@@ -4,22 +4,10 @@ using Guest = Domain.Entities.Guest;
 using NUnit.Framework;
 using Application.Guest.DTO;
 using Application.Guest.Requests;
+using Moq;
 
 namespace ApplicationTests.Guests
 {
-    class FakeRepo : IGuestRepository
-    {
-        public Task<int> Create(Guest guest)
-        {
-            return Task.FromResult(1111);
-        }
-
-        public Task<Guest> Get(int Id)
-        {
-            throw new NotImplementedException();
-        }
-    }
-
     public class GuestManagerTests
     {
         GuestManager guestManager;
@@ -27,8 +15,9 @@ namespace ApplicationTests.Guests
         [SetUp]
         public void Setup() 
         {
-            var fakeRepo = new FakeRepo();
-            guestManager = new GuestManager(fakeRepo);
+            var fakeRepo = new Mock<IGuestRepository>();
+            fakeRepo.Setup(x => x.Create(It.IsAny<Guest>())).Returns(Task.FromResult(222));
+            guestManager = new GuestManager(fakeRepo.Object);
         }
 
         [Test]
