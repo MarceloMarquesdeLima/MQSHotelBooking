@@ -19,12 +19,13 @@ namespace Domain.Entities
 		private void ValidaState()
 		{
 			if(DocumentId == null ||
+				string.IsNullOrEmpty(DocumentId.IdNumber) ||
 			   DocumentId.IdNumber.Length <= 3 ||
 			   DocumentId.DocumentType == 0)
 			{
 				throw new InvalidPersonDocumentIdExcepptions();
             }
-			if(Name == null || Surname == null || Email == null)
+			if(string.IsNullOrEmpty(Name) || string.IsNullOrEmpty(Surname) == null || string.IsNullOrEmpty(Email))
 			{
 				throw new MissingRequeredInformation();
 			}
