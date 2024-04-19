@@ -25,7 +25,9 @@ namespace Domain.Entities
 			{
 				throw new InvalidPersonDocumentIdExcepptions();
             }
-			if(string.IsNullOrEmpty(Name) || string.IsNullOrEmpty(Surname) == null || string.IsNullOrEmpty(Email))
+			if(string.IsNullOrEmpty(Name) || 
+			   string.IsNullOrEmpty(Surname) || 
+			   string.IsNullOrEmpty(Email))
 			{
 				throw new MissingRequeredInformation();
 			}

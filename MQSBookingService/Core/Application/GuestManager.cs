@@ -49,7 +49,7 @@ namespace Application
                 {
                     Success = false,
                     ErrorCode = ErrorCodes.MISSING_REQUIRED_INFORMATION,
-                    Message = "Missing required infrmation passed."
+                    Message = "Missing required information passed."
                 };
             }
 
@@ -72,6 +72,11 @@ namespace Application
                     Message = "There was an error when saving to DB."
                 };
             }
+        }
+
+        public Task<GuestResponse> GetGuest(int guestId)
+        {
+            throw new NotImplementedException();
         }
     }
 }

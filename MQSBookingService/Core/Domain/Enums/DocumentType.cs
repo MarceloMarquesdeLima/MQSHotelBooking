@@ -4,6 +4,5 @@
     {
         Passport = 0,
         DriveLicence = 1,
-
     }
 }

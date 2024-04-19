@@ -78,11 +78,11 @@ namespace ApplicationTests.Guests
         }
 
         [TestCase("","surnametest","asdf@gmail.com")]
-        [TestCase(null, "surnametest", "asdf@gmail.com")]
-        [TestCase("Fulano", "", "asdf@gmail.com")]
-        [TestCase("Fulano", null, "asdf@gmail.com")]
-        [TestCase("Fulano", "surnametest", "")]
-        [TestCase("Fulano", "surnametest", null)]
+        [TestCase(null,"surnametest", "asdf@gmail.com")]
+        [TestCase("Fulano","", "asdf@gmail.com")]
+        [TestCase("Fulano",null, "asdf@gmail.com")]
+        [TestCase("Fulano","surnametest", "")]
+        [TestCase("Fulano","surnametest", null)]
         public async Task Shold_Return_MissingRequeridInformation_WhenDocsAreInvalid(string name, string surname, string email)
         {
             var guestDTO = new GuestDTO
