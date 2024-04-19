@@ -57,7 +57,7 @@ namespace Application
             {
                 return new GuestResponse
                 {
-                    Success = false,
+                    Success = true,
                     ErrorCode = ErrorCodes.INVALID_EMAIL,
                     Message = "The given email is not valid."
                 };
@@ -74,9 +74,24 @@ namespace Application
             }
         }
 
-        public Task<GuestResponse> GetGuest(int guestId)
+        public async Task<GuestResponse> GetGuest(int guestId)
         {
-            throw new NotImplementedException();
+            var guest = await _guestRepository.Get(guestId);
+
+            if (guest == null)
+            {
+                return new GuestResponse
+                {
+                    Success = false,
+                    ErrorCode = ErrorCodes.GUEST_NOT_FOUND,
+                    Message = "No Guest record was found with the given Id"
+                };
+            }
+            return new GuestResponse
+            {
+                Data = GuestDTO.MapToDto(guest),
+                Success = true,
+            };
         }
     }
 }

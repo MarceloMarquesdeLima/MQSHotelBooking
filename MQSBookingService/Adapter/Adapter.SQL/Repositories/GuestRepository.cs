@@ -1,5 +1,6 @@
 ﻿using Domain.Entities;
 using Domain.Ports;
+using Microsoft.EntityFrameworkCore;
 
 namespace Adapter.SQL.Repositories
 {
@@ -19,7 +20,7 @@ namespace Adapter.SQL.Repositories
 
         public Task<Guest> Get(int Id)
         {
-            throw new NotImplementedException();
+            return _context.Guests.Where(g => g.Id == Id).FirstOrDefaultAsync();
         }
     }
 }

@@ -32,7 +32,7 @@ namespace ApiConsumer.Controllers
             if (res.Success) return Created("", res.Data);
             if(res.ErrorCode == ErrorCodes.NOT_FOUND)
             {
-                return BadRequest(res);
+                return NotFound(res);
             }
             if (res.ErrorCode == ErrorCodes.INVALID_PERSON_ID)
             {
