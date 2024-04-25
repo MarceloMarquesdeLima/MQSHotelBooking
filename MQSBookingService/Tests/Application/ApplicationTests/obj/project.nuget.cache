@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CgPzVrw1eFcCFkCpFSzB7gJSowvAilbNvcx+urzFnLI11dR8VB6HSGO75LGCh4Jr4qF1RGTMLLOx5tbKL3QuUA==",
+  "dgSpecHash": "hJsts2re0xewF1Y8v4qlwtMLoVzwE1YvoL+PkfNb2C+b7Ct1h4DxcFUAqM996sUpztTOMB7vrhaTH1X7dx/sHw==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\MQSHotelBooking\\MQSBookingService\\Tests\\Application\\ApplicationTests\\ApplicationTests.csproj",
+  "projectFilePath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Tests\\Application\\ApplicationTests\\ApplicationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marce\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",

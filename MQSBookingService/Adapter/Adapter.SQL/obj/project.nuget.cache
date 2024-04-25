@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Aadrnup8nMExXOsU/MvZJeWxr5hO23RIX2+O5iHV83a6MWTvVDWujhcN43f/MT63ZSihFvC68XMdbgiUMUybTA==",
+  "dgSpecHash": "MvhpewruGXt9/u6wpsojV7sk0fDe2GhqhYLyFdfTxYnjG48eXFBTLPjkixdFP2cjjzcMHI1W4AHJ8VX4yVsqAw==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\MQSHotelBooking\\MQSBookingService\\Adapter\\Adapter.SQL\\Adapter.SQL.csproj",
+  "projectFilePath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Adapter\\Adapter.SQL\\Adapter.SQL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marce\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
