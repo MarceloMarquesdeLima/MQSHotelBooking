@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MG6Rm+4ZXfpW1nd6d5JGrFrFS3RxHnT4HSG+ADqPGsbq1k0tBUq/ZX1iM20pTW6F4vqiBvwAWJunBu3rtVazfA==",
+  "dgSpecHash": "XgBkbI/fTZAEdngM9wUe16xev1oMhykNr/5ZksK/ZTgfpZkSVNvalF6Wc1zVevAHpAYmzTJ6ey/UkvUEFDK3CA==",
   "success": true,
-  "projectFilePath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Consumer\\ApiConsumer\\ApiConsumer.csproj",
+  "projectFilePath": "C:\\dev-mqs\\MQSHotelBooking\\MQSBookingService\\Consumer\\ApiConsumer\\ApiConsumer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marce\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

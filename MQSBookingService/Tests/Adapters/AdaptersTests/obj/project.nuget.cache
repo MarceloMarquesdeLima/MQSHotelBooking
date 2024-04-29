@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ivQgZWcWqCeubpz1phT2e172Ar39cZ+tn6KA4VR3xQVvae2axocbPd98dATnsf8xD2t+x26qgs1HsB3/72b/vw==",
+  "dgSpecHash": "ig8yojW/WfkKUlmcBY/TN5VDdmHlrYxvg6dXpiGVZ70Mgx+uj+tgVy8oSzyf2u4dwp5XS3U7OGV2uYzo1439eA==",
   "success": true,
-  "projectFilePath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Tests\\Adapters\\AdaptersTests\\AdaptersTests.csproj",
+  "projectFilePath": "C:\\dev-mqs\\MQSHotelBooking\\MQSBookingService\\Tests\\Adapters\\AdaptersTests\\AdaptersTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marce\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
