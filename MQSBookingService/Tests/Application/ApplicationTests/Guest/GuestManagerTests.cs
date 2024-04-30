@@ -5,6 +5,7 @@ using NUnit.Framework;
 using Application.Guest.DTO;
 using Application.Guest.Requests;
 using Moq;
+using Application.Guest;
 
 namespace ApplicationTests.Guests
 {

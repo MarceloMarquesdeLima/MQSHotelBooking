@@ -1,6 +1,6 @@
 ﻿using Adapter.SQL;
 using Adapter.SQL.Repositories;
-using Application;
+using Application.Guest;
 using Application.Guest.Ports;
 using Domain.Ports;
 using Microsoft.EntityFrameworkCore;
