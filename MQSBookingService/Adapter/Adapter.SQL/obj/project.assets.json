@@ -2054,11 +2054,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev-mqs\\MQSHotelBooking\\MQSBookingService\\Adapter\\Adapter.SQL\\Adapter.SQL.csproj",
+      "projectUniqueName": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Adapter\\Adapter.SQL\\Adapter.SQL.csproj",
       "projectName": "Adapter.SQL",
-      "projectPath": "C:\\dev-mqs\\MQSHotelBooking\\MQSBookingService\\Adapter\\Adapter.SQL\\Adapter.SQL.csproj",
+      "projectPath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Adapter\\Adapter.SQL\\Adapter.SQL.csproj",
       "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-      "outputPath": "C:\\dev-mqs\\MQSHotelBooking\\MQSBookingService\\Adapter\\Adapter.SQL\\obj\\",
+      "outputPath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Adapter\\Adapter.SQL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2080,11 +2080,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\dev-mqs\\MQSHotelBooking\\MQSBookingService\\Core\\Application\\Application.csproj": {
-              "projectPath": "C:\\dev-mqs\\MQSHotelBooking\\MQSBookingService\\Core\\Application\\Application.csproj"
+            "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Application\\Application.csproj": {
+              "projectPath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Application\\Application.csproj"
             },
-            "C:\\dev-mqs\\MQSHotelBooking\\MQSBookingService\\Core\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\dev-mqs\\MQSHotelBooking\\MQSBookingService\\Core\\Domain\\Domain.csproj"
+            "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Domain\\Domain.csproj"
             }
           }
         }
@@ -2132,12 +2132,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.29, 6.0.29]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.421\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

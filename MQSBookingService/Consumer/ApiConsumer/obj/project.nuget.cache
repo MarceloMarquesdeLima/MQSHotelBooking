@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XgBkbI/fTZAEdngM9wUe16xev1oMhykNr/5ZksK/ZTgfpZkSVNvalF6Wc1zVevAHpAYmzTJ6ey/UkvUEFDK3CA==",
+  "dgSpecHash": "ohO25JpsRJV9ngzn2oOB2MBJQbCQBQAl0Th5j6WZQe/VKSZpc+NzhBeKya5GHq7Q6jnmet3Yu89hXopeqI9AKw==",
   "success": true,
-  "projectFilePath": "C:\\dev-mqs\\MQSHotelBooking\\MQSBookingService\\Consumer\\ApiConsumer\\ApiConsumer.csproj",
+  "projectFilePath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Consumer\\ApiConsumer\\ApiConsumer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marce\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -52,7 +52,11 @@
     "C:\\Users\\marce\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
-    "C:\\Users\\marce\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\marce\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
   ],
   "logs": []
 }

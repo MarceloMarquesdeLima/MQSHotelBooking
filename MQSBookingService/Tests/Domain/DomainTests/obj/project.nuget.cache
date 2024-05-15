@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HzYSg13tdEp0s390V1K6aASp+anWHkUgL27oGR9lsyVdPd2s09La7X+0IW1lxPVxQhiVtNryC9wyHoq6YYCHwA==",
+  "dgSpecHash": "cUZa3xPQ28DAuEBbs1RketsPQfyCn4y5ebEMSxnRvSm1kEPhgQCyh4oFOfMXCHuHtrFDsvCInyIcFmmWDmJHMA==",
   "success": true,
-  "projectFilePath": "C:\\dev-mqs\\MQSHotelBooking\\MQSBookingService\\Tests\\Domain\\DomainTests\\DomainTests.csproj",
+  "projectFilePath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Tests\\Domain\\DomainTests\\DomainTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marce\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
@@ -50,7 +50,10 @@
     "C:\\Users\\marce\\.nuget\\packages\\system.threading.tasks\\4.0.11\\system.threading.tasks.4.0.11.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\system.threading.tasks.extensions\\4.0.0\\system.threading.tasks.extensions.4.0.0.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
-    "C:\\Users\\marce\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
+    "C:\\Users\\marce\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512"
   ],
   "logs": []
 }
