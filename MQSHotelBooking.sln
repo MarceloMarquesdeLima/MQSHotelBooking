@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "MQSBookingSe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MQSBookingWeb", "MQSBookingWeb", "{E642F936-87DC-4AC8-B5C7-F96954B0C3A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQSHotelBookingWeb", "MQSHotelBookingWeb\MQSHotelBookingWeb\MQSHotelBookingWeb.csproj", "{B0CEE0E6-3C1F-4E30-A575-AA5F3CFAA95F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQSHotelBookingWeb", "MQSHotelBookingWeb\MQSHotelBookingWeb\MQSHotelBookingWeb.csproj", "{B0CEE0E6-3C1F-4E30-A575-AA5F3CFAA95F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MQSPaymentService", "MQSPaymentService", "{390CDF64-9899-4223-882D-D485508AF466}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
