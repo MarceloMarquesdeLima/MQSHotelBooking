@@ -46,7 +46,7 @@ namespace ApiConsumer.Controllers
             {
                 return BadRequest(res);
             }
-            if (res.ErrorCode == ErrorCodes.COULDNOT_STORE_DATA)
+            if (res.ErrorCode == ErrorCodes.COULD_NOT_STORE_DATA)
             {
                 return BadRequest(res);
             }

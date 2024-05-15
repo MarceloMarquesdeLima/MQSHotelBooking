@@ -1,37 +1,44 @@
 ﻿using Application.Room.DTO;
-using Application.Room.Ports;
-using Application.Room.Requests;
 using Application.Room.Responses;
 using Domain.DomainException;
 using Domain.Ports;
+using MediatR;
 
-namespace Application.Room
+namespace Application.Room.Commands
 {
-    public class RoomManager : IRoomManager
+    public class CreateRoomCommandHandler : IRequestHandler<CreateRoomCommand, RoomResponse>
     {
-        private readonly IRoomRepository _roomRepository;
-        public RoomManager(IRoomRepository roomRepository)
+        public readonly IRoomRepository _RoomRepository;
+        public CreateRoomCommandHandler(IRoomRepository RoomRepository)
         {
-            _roomRepository = roomRepository;            
+            _RoomRepository = RoomRepository;
         }
-        public async Task<RoomResponse> CreateRoom(CreateRoomRequest request)
+        public async Task<RoomResponse> Handle(CreateRoomCommand request, CancellationToken cancellationToken)
         {
             try
             {
-                var room = RoomDTO.MapToEntity(request.Data);
+                var Room = RoomDTO.MapToEntity(request.RoomDTO);
 
-                await room.Save(_roomRepository);
-                request.Data.Id = room.Id;
+                await Room.Save(_RoomRepository);
+                request.RoomDTO.Id = Room.Id;
 
                 return new RoomResponse
                 {
                     Success = true,
-                    Data = request.Data,
+                    Data = request.RoomDTO,
+                };
+            }
+            catch (InvalidRoomPriceException)
+            {
+                return new RoomResponse
+                {
+                    Success = false,
+                    ErrorCode = ErrorCodes.ROOM_MISSING_REQUIRED_INFORMATION,
+                    Message = "Room price is invalid"
                 };
             }
             catch (InvalidRoomDataException)
             {
-
                 return new RoomResponse
                 {
                     Success = false,
@@ -48,11 +55,6 @@ namespace Application.Room
                     Message = "There was an error when saving to DB"
                 };
             }
-        }
-
-        public Task<RoomResponse> GetRoom(int roomId)
-        {
-            throw new NotImplementedException();
         }
     }
 }

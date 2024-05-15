@@ -10,6 +10,6 @@ namespace Domain.ValueObjects
     public class Price
     {
         public decimal Value { get; set; }
-        public AccepttedCurrencies Currency { get; set; }
+        public AcceptedCurrencies Currency { get; set; }
     }
 }

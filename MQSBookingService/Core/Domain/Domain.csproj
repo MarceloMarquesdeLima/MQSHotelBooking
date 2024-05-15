@@ -14,7 +14,4 @@
     <None Remove="ValueObjects\" />
     <None Remove="Entities\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Ports\" />
-  </ItemGroup>
 </Project>

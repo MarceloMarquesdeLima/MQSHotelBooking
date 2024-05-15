@@ -68,7 +68,7 @@ namespace Application.Guest
                 return new GuestResponse
                 {
                     Success = false,
-                    ErrorCode = ErrorCodes.COULDNOT_STORE_DATA,
+                    ErrorCode = ErrorCodes.COULD_NOT_STORE_DATA,
                     Message = "There was an error when saving to DB."
                 };
             }

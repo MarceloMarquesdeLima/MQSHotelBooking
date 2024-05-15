@@ -7,14 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Room\DTO\" />
-    <Folder Include="Room\Responses\" />
-    <Folder Include="Room\Requests\" />
-    <Folder Include="Room\Ports\" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
 </Project>
