@@ -1,6 +1,9 @@
-﻿namespace Application.Booking
+﻿using Application.Booking.DTO;
+
+namespace Application.Booking
 {
-    internal class BookingResponse
+    public class BookingResponse : Response
     {
+        public BookingDTO Data;
     }
 }

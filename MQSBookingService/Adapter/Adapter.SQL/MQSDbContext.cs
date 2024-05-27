@@ -9,7 +9,7 @@ namespace Adapter.SQL
         public MQSDbContext(DbContextOptions<MQSDbContext> options) : base(options) { }
 
         public virtual DbSet<Entities.Guest> Guests { get; set; }
-		public virtual DbSet<Entities.Room> Roons { get; set; }
+		public virtual DbSet<Entities.Room> Rooms { get; set; }
 		public virtual DbSet<Entities.Booking> Bookings { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

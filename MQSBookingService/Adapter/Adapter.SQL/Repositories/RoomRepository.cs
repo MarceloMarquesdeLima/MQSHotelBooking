@@ -12,20 +12,20 @@ namespace Adapter.SQL.Repositories
         }
         public async Task<int> Create(Domain.Entities.Room room)
         {
-            _context.Roons.Add(room);
+            _context.Rooms.Add(room);
             await _context.SaveChangesAsync();
             return room.Id;
         }
 
         public Task<Domain.Entities.Room> Get(int Id)
         {
-            return _context.Roons
+            return _context.Rooms
                 .Where(g => g.Id == Id).FirstOrDefaultAsync();
         }
 
         public Task<Domain.Entities.Room> GetAggregate(int Id)
         {
-            return _context.Roons
+            return _context.Rooms
                 .Include(r => r.Bookings)
                 .Where(g => g.Id == Id).FirstAsync();
         }

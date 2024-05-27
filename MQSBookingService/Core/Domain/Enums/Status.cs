@@ -8,6 +8,7 @@ namespace Domain.Enums
 		Finished = 2,
 		Canceled = 3,
 		Refounded = 4,
+		Success = 5,
 	}
 }
 

@@ -8,5 +8,6 @@ namespace Application.Payment.DTOS
         public string PaymentId { get; set; }
         public DateTime CreateDate { get; set; } = DateTime.Now;
         public string Message { get; set; }
+        public DateTime CreatedDate { get; set; }
     }
 }

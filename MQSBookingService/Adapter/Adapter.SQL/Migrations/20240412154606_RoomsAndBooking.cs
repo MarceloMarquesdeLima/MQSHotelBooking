@@ -26,7 +26,7 @@ namespace Adapter.SQL.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Roons",
+                name: "Rooms",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -37,7 +37,7 @@ namespace Adapter.SQL.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Roons", x => x.Id);
+                    table.PrimaryKey("PK_Rooms", x => x.Id);
                 });
         }
 
@@ -47,7 +47,7 @@ namespace Adapter.SQL.Migrations
                 name: "Bookings");
 
             migrationBuilder.DropTable(
-                name: "Roons");
+                name: "Rooms");
         }
     }
 }

@@ -41,7 +41,7 @@ namespace Adapter.SQL.Migrations
                     b.Property<DateTime>("PlacedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("RoonId")
+                    b.Property<int>("RoomId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("Start")
@@ -54,7 +54,7 @@ namespace Adapter.SQL.Migrations
 
                     b.HasIndex("GuestId");
 
-                    b.HasIndex("RoonId");
+                    b.HasIndex("RoomId");
 
                     b.ToTable("Bookings");
                 });
@@ -84,7 +84,7 @@ namespace Adapter.SQL.Migrations
                     b.ToTable("Guests");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Roon", b =>
+            modelBuilder.Entity("Domain.Entities.Room", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -104,7 +104,7 @@ namespace Adapter.SQL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Roons");
+                    b.ToTable("Rooms");
                 });
 
             modelBuilder.Entity("Domain.Entities.Booking", b =>
@@ -115,15 +115,15 @@ namespace Adapter.SQL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Domain.Entities.Roon", "Roon")
+                    b.HasOne("Domain.Entities.Room", "Room")
                         .WithMany()
-                        .HasForeignKey("RoonId")
+                        .HasForeignKey("RoomId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Guest");
 
-                    b.Navigation("Roon");
+                    b.Navigation("Room");
                 });
 #pragma warning restore 612, 618
         }

@@ -16,7 +16,7 @@ namespace Adapter.SQL.Migrations
                 defaultValue: 0);
 
             migrationBuilder.AddColumn<int>(
-                name: "RoonId",
+                name: "RoomId",
                 table: "Bookings",
                 type: "int",
                 nullable: false,
@@ -28,9 +28,9 @@ namespace Adapter.SQL.Migrations
                 column: "GuestId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Bookings_RoonId",
+                name: "IX_Bookings_RoomId",
                 table: "Bookings",
-                column: "RoonId");
+                column: "RoomId");
 
             migrationBuilder.AddForeignKey(
                 name: "FK_Bookings_Guests_GuestId",
@@ -41,10 +41,10 @@ namespace Adapter.SQL.Migrations
                 onDelete: ReferentialAction.Cascade);
 
             migrationBuilder.AddForeignKey(
-                name: "FK_Bookings_Roons_RoonId",
+                name: "FK_Bookings_Rooms_RoomId",
                 table: "Bookings",
-                column: "RoonId",
-                principalTable: "Roons",
+                column: "RoomId",
+                principalTable: "Rooms",
                 principalColumn: "Id",
                 onDelete: ReferentialAction.Cascade);
         }
@@ -56,7 +56,7 @@ namespace Adapter.SQL.Migrations
                 table: "Bookings");
 
             migrationBuilder.DropForeignKey(
-                name: "FK_Bookings_Roons_RoonId",
+                name: "FK_Bookings_Rooms_RoomId",
                 table: "Bookings");
 
             migrationBuilder.DropIndex(
@@ -64,7 +64,7 @@ namespace Adapter.SQL.Migrations
                 table: "Bookings");
 
             migrationBuilder.DropIndex(
-                name: "IX_Bookings_RoonId",
+                name: "IX_Bookings_RoomId",
                 table: "Bookings");
 
             migrationBuilder.DropColumn(
@@ -72,7 +72,7 @@ namespace Adapter.SQL.Migrations
                 table: "Bookings");
 
             migrationBuilder.DropColumn(
-                name: "RoonId",
+                name: "RoomId",
                 table: "Bookings");
         }
     }

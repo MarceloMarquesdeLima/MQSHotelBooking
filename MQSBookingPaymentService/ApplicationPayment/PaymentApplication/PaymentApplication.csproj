@@ -7,11 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+	<Folder Include="Paypal\" />  
     <Folder Include="Stripe\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\MQSBookingService\Core\Application\Application.csproj" />
+    <ProjectReference Include="..\..\..\MQSBookingService\Core\Domain\Domain.csproj" />
   </ItemGroup>
 
 </Project>

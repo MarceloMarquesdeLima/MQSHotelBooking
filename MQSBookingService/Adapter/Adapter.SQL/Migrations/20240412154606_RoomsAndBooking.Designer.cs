@@ -74,7 +74,7 @@ namespace Adapter.SQL.Migrations
                     b.ToTable("Guests");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Roon", b =>
+            modelBuilder.Entity("Domain.Entities.Room", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -94,7 +94,7 @@ namespace Adapter.SQL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Roons");
+                    b.ToTable("Rooms");
                 });
 #pragma warning restore 612, 618
         }

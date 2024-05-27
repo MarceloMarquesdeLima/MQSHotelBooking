@@ -1,5 +1,7 @@
 ﻿using Adapter.SQL;
 using Adapter.SQL.Repositories;
+using Application.Booking.Ports;
+using Application.Booking;
 using Application.Guest;
 using Application.Guest.Ports;
 using Application.Room;
@@ -17,6 +19,9 @@ builder.Services.AddScoped<IGuestManager, GuestManager>();
 builder.Services.AddScoped<IGuestRepository, GuestRepository>();
 builder.Services.AddScoped<IRoomManager, RoomManager>();
 builder.Services.AddScoped<IRoomRepository, RoomRepository>();
+builder.Services.AddScoped<IBookingManager, BookingManager>();
+builder.Services.AddScoped<IBookingRepository, BookingRepository>();
+//builder.Services.AddScoped<IPaymentProcessorFactory, PaymentProcessorFactory>();
 
 //Conexão com banco
 var connectionString = builder.Configuration.GetConnectionString("Main");

@@ -10,14 +10,14 @@ namespace Adapter.SQL.Migrations
         {
             migrationBuilder.AddColumn<int>(
                 name: "Price_Currency",
-                table: "Roons",
+                table: "Rooms",
                 type: "int",
                 nullable: false,
                 defaultValue: 0);
 
             migrationBuilder.AddColumn<decimal>(
                 name: "Price_Value",
-                table: "Roons",
+                table: "Rooms",
                 type: "decimal(18,2)",
                 nullable: false,
                 defaultValue: 0m);
@@ -27,11 +27,11 @@ namespace Adapter.SQL.Migrations
         {
             migrationBuilder.DropColumn(
                 name: "Price_Currency",
-                table: "Roons");
+                table: "Rooms");
 
             migrationBuilder.DropColumn(
                 name: "Price_Value",
-                table: "Roons");
+                table: "Rooms");
         }
     }
 }

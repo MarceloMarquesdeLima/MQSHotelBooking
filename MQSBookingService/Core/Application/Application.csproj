@@ -14,11 +14,4 @@
     <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Booking\Commands\" />
-    <Folder Include="Booking\DTO\" />
-    <Folder Include="Booking\Queries\" />
-    <Folder Include="Booking\Ports\" />
-  </ItemGroup>
-
 </Project>
