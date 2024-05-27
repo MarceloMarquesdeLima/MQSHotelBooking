@@ -2,7 +2,7 @@
 using Application.Payment;
 using Application.Payment.Ports;
 
-namespace PaymentApplication
+namespace PaymentsApplication
 {
     public class NotImplementedPaymentProvider : IPaymentProcessor
     {

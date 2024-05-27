@@ -47,7 +47,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{4F27B4AB-7EEA-4FA7-A41B-CD564BE85CC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentApplication", "MQSBookingPaymentService\ApplicationPayment\PaymentApplication\PaymentApplication.csproj", "{3116AEE9-6778-4251-BFC1-81E6AA66F835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentsApplication", "MQSBookingPaymentService\ApplicationPayment\PaymentApplication\PaymentsApplication.csproj", "{3116AEE9-6778-4251-BFC1-81E6AA66F835}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

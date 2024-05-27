@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fCR37IIm33mK+rlVev1ux8kKxmEvmG8TKQEjXJXzZq/euPxvDP29SUFXl/Mv7TQQG6wcFRawiuWnRM9BgugeXA==",
+  "dgSpecHash": "1PvO6fFoZFpsSbP+VD9dJL4gbSm3Ne3rVVzzG8G5knosfvypuM3xSL8ALYKlXcBVmrUucdf7GovX5ntpbJS4fg==",
   "success": true,
   "projectFilePath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Consumer\\ApiConsumer\\ApiConsumer.csproj",
   "expectedPackageFiles": [

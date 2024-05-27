@@ -1,9 +1,9 @@
 ﻿using Application.Booking.DTO;
 using Application.Payment.Ports;
-using PaymentApplication.MercadoPago;
+using PaymentsApplications.MercadoPago;
 using static Application.Booking.DTO.PaymentRequestDTO;
 
-namespace PaymentApplication
+namespace PaymentsApplication
 {
     public class PaymentProcessorFactory : IPaymentProcessorFactory
     {

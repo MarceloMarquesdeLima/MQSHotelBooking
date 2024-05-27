@@ -938,6 +938,20 @@
         "runtime": {
           "bin/placeholder/Domain.dll": {}
         }
+      },
+      "PaymentsApplication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Application": "1.0.0",
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PaymentsApplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaymentsApplication.dll": {}
+        }
       }
     }
   },
@@ -2549,6 +2563,11 @@
       "type": "project",
       "path": "../../Core/Domain/Domain.csproj",
       "msbuildProject": "../../Core/Domain/Domain.csproj"
+    },
+    "PaymentsApplication/1.0.0": {
+      "type": "project",
+      "path": "../../../MQSBookingPaymentService/ApplicationPayment/PaymentApplication/PaymentsApplication.csproj",
+      "msbuildProject": "../../../MQSBookingPaymentService/ApplicationPayment/PaymentApplication/PaymentsApplication.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2557,6 +2576,7 @@
       "Application >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.29",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.29",
+      "PaymentsApplication >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -2593,6 +2613,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\dev\\MQSHotelBooking\\MQSBookingPaymentService\\ApplicationPayment\\PaymentApplication\\PaymentsApplication.csproj": {
+              "projectPath": "C:\\dev\\MQSHotelBooking\\MQSBookingPaymentService\\ApplicationPayment\\PaymentApplication\\PaymentsApplication.csproj"
+            },
             "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Adapter\\Adapter.SQL\\Adapter.SQL.csproj": {
               "projectPath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Adapter\\Adapter.SQL\\Adapter.SQL.csproj"
             },

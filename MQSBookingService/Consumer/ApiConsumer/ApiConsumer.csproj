@@ -31,6 +31,7 @@
     <None Remove="Controllers\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\MQSBookingPaymentService\ApplicationPayment\PaymentApplication\PaymentsApplication.csproj" />
     <ProjectReference Include="..\..\Adapter\Adapter.SQL\Adapter.SQL.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>

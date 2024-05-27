@@ -1,13 +1,17 @@
 ﻿using Adapter.SQL;
 using Adapter.SQL.Repositories;
-using Application.Booking.Ports;
 using Application.Booking;
+using Application.Booking.Ports;
 using Application.Guest;
 using Application.Guest.Ports;
+using Application.Payment;
+using Application.Payment.Ports;
 using Application.Room;
 using Application.Room.Ports;
 using Domain.Ports;
 using Microsoft.EntityFrameworkCore;
+using PaymentsApplication;
+using PaymentsApplications.MercadoPago;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,7 +25,8 @@ builder.Services.AddScoped<IRoomManager, RoomManager>();
 builder.Services.AddScoped<IRoomRepository, RoomRepository>();
 builder.Services.AddScoped<IBookingManager, BookingManager>();
 builder.Services.AddScoped<IBookingRepository, BookingRepository>();
-//builder.Services.AddScoped<IPaymentProcessorFactory, PaymentProcessorFactory>();
+builder.Services.AddScoped<IPaymentProcessorFactory, PaymentProcessorFactory>();
+
 
 //Conexão com banco
 var connectionString = builder.Configuration.GetConnectionString("Main");
