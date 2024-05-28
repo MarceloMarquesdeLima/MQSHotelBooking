@@ -1,6 +1,6 @@
 ﻿using Application.Booking.DTO;
 using Application.Payment.Ports;
-using PaymentsApplications.MercadoPago;
+using PaymentApplications.MercadoPago;
 using static Application.Booking.DTO.PaymentRequestDTO;
 
 namespace PaymentsApplication

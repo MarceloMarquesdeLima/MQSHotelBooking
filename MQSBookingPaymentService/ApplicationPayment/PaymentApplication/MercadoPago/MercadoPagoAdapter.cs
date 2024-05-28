@@ -5,7 +5,7 @@ using Application.Payment.Ports;
 using Domain.Enums;
 using PaymentApplications.MercadoPago.Exceptions;
 
-namespace PaymentsApplications.MercadoPago
+namespace PaymentApplications.MercadoPago
 {
     public class MercadoPagoAdapter : IPaymentProcessor
     {

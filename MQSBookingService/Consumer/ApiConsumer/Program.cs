@@ -11,13 +11,13 @@ using Application.Room.Ports;
 using Domain.Ports;
 using Microsoft.EntityFrameworkCore;
 using PaymentsApplication;
-using PaymentsApplications.MercadoPago;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+
 // IoC
 builder.Services.AddScoped<IGuestManager, GuestManager>();
 builder.Services.AddScoped<IGuestRepository, GuestRepository>();
