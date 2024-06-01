@@ -1,9 +1,7 @@
-﻿using Application.Booking.Commands;
-using Application.Booking.DTO;
+﻿using Application.Booking.DTO;
 using Application.Booking;
 using Application;
 using Application.Booking.Ports;
-using Application.Booking.Queries;
 using Application.Payment;
 using Microsoft.AspNetCore.Mvc;
 using static Application.Booking.DTO.PaymentRequestDTO;
