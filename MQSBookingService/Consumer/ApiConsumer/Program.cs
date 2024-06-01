@@ -12,6 +12,7 @@ using Domain.Ports;
 using Microsoft.EntityFrameworkCore;
 using PaymentApplications.MercadoPago;
 using PaymentsApplication;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,6 +38,10 @@ builder.Services.AddDbContext<MQSDbContext>(
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddControllersWithViews()
+                .AddJsonOptions(options =>
+                options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
 
 var app = builder.Build();
 
