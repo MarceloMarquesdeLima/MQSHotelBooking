@@ -10,6 +10,7 @@ using Application.Room;
 using Application.Room.Ports;
 using Domain.Ports;
 using Microsoft.EntityFrameworkCore;
+using PaymentApplications.MercadoPago;
 using PaymentsApplication;
 
 var builder = WebApplication.CreateBuilder(args);
