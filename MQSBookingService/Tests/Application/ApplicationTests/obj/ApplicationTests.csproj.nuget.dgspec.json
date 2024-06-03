@@ -1,40 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Tests\\Application\\ApplicationTests\\ApplicationTests.csproj": {}
+    "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Tests/Application/ApplicationTests/ApplicationTests.csproj": {}
   },
   "projects": {
-    "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Application\\Application.csproj": {
+    "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Core/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Application\\Application.csproj",
+        "projectUniqueName": "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Core/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Application\\obj\\",
+        "projectPath": "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Core/Application/Application.csproj",
+        "packagesPath": "/home/mqs/.nuget/packages/",
+        "outputPath": "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Core/Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/mqs/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Domain\\Domain.csproj"
+              "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Core/Domain/Domain.csproj": {
+                "projectPath": "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Core/Domain/Domain.csproj"
               }
             }
           }
@@ -43,11 +36,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -70,38 +58,41 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.422\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Domain\\Domain.csproj": {
+    "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Core/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Domain\\Domain.csproj",
+        "projectUniqueName": "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Core/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Domain\\obj\\",
+        "projectPath": "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Core/Domain/Domain.csproj",
+        "packagesPath": "/home/mqs/.nuget/packages/",
+        "outputPath": "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Core/Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/mqs/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -114,11 +105,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -135,49 +121,52 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.422\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Tests\\Application\\ApplicationTests\\ApplicationTests.csproj": {
+    "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Tests/Application/ApplicationTests/ApplicationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Tests\\Application\\ApplicationTests\\ApplicationTests.csproj",
+        "projectUniqueName": "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Tests/Application/ApplicationTests/ApplicationTests.csproj",
         "projectName": "ApplicationTests",
-        "projectPath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Tests\\Application\\ApplicationTests\\ApplicationTests.csproj",
-        "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Tests\\Application\\ApplicationTests\\obj\\",
+        "projectPath": "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Tests/Application/ApplicationTests/ApplicationTests.csproj",
+        "packagesPath": "/home/mqs/.nuget/packages/",
+        "outputPath": "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Tests/Application/ApplicationTests/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/mqs/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Application\\Application.csproj": {
-                "projectPath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Application\\Application.csproj"
+              "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Core/Application/Application.csproj": {
+                "projectPath": "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Core/Application/Application.csproj"
               },
-              "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\dev\\MQSHotelBooking\\MQSBookingService\\Core\\Domain\\Domain.csproj"
+              "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Core/Domain/Domain.csproj": {
+                "projectPath": "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Core/Domain/Domain.csproj"
               }
             }
           }
@@ -186,11 +175,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -233,12 +217,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.422\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/RuntimeIdentifierGraph.json"
         }
       }
     }
