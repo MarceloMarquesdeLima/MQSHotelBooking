@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CRfXoZ06omnjbut8Vm+5AH5bImp/KKRMYg81M80ZIKtIBrkGX7THd57DedpQLAtgpnw09bKswtYhNksx4EJZEw==",
+  "dgSpecHash": "JP0GfuqCKK0Ht1mNJgwqMgeFTttRXGY6opNoYis9bBHfzhIHr0g3Cy0Dr3n6tTT2efd4Teb3bd0ca98WzR3d8Q==",
   "success": true,
   "projectFilePath": "/home/mqs/Documents/dev/MQSHotelBooking/MQSBookingService/Tests/Application/ApplicationTests/ApplicationTests.csproj",
   "expectedPackageFiles": [
@@ -56,9 +56,7 @@
     "/home/mqs/.nuget/packages/system.threading.tasks/4.0.11/system.threading.tasks.4.0.11.nupkg.sha512",
     "/home/mqs/.nuget/packages/system.threading.tasks.extensions/4.0.0/system.threading.tasks.extensions.4.0.0.nupkg.sha512",
     "/home/mqs/.nuget/packages/system.xml.readerwriter/4.0.11/system.xml.readerwriter.4.0.11.nupkg.sha512",
-    "/home/mqs/.nuget/packages/system.xml.xdocument/4.0.11/system.xml.xdocument.4.0.11.nupkg.sha512",
-    "/home/mqs/.nuget/packages/microsoft.netcore.app.ref/6.0.30/microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
-    "/home/mqs/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.30/microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512"
+    "/home/mqs/.nuget/packages/system.xml.xdocument/4.0.11/system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
   "logs": []
 }
